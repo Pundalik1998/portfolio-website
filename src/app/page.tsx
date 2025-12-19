@@ -32,7 +32,7 @@ export default function Home() {
       transition={{ duration: 0.6 }}
     >
       {/* Top hero grid */}
-      <div className="grid gap-10 md:grid-cols-[3fr,2fr] md:items-center">
+      <div className="grid gap-18 md:grid-cols-[3fr,2fr] md:items-center">
         {/* Left column */}
         <div className="space-y-6 fade-in-up">
           <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-slate-300 shadow-sm backdrop-blur">
@@ -126,7 +126,7 @@ export default function Home() {
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">
                 Tech Snapshot
               </p>
-              <p className="mt-2 text-sm text-slate-200">
+              <p className="mt-2 mb-2 text-sm text-slate-200">
                 Java · Spring Boot · React · REST APIs · MySQL · Tailwind CSS
               </p>
             </div>
@@ -164,28 +164,7 @@ export default function Home() {
         </motion.div>
       </div>
 
-      {/* Tech stack band */}
-      <div className="rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-xs text-slate-200 sm:text-sm">
-        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-          <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-indigo-300">
-            Tech stack
-          </span>
-          <span className="h-px w-6 bg-slate-600" />
-          <span className="rounded-full bg-slate-900/80 px-3 py-1">
-            Java &amp; Spring Boot
-          </span>
-          <span className="rounded-full bg-slate-900/80 px-3 py-1">React</span>
-          <span className="rounded-full bg-slate-900/80 px-3 py-1">
-            REST APIs &amp; JWT
-          </span>
-          <span className="rounded-full bg-slate-900/80 px-3 py-1">
-            MySQL &amp; SQL
-          </span>
-          <span className="rounded-full bg-slate-900/80 px-3 py-1">
-            Tailwind CSS
-          </span>
-        </div>
-      </div>
+      
     </motion.section>
   );
 }

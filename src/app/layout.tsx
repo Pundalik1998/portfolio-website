@@ -47,7 +47,7 @@ export default function RootLayout({
         <div className="min-h-screen gradient-shell text-slate-100">
           <SiteHeader />
 
-          <main className="mx-auto max-w-5xl px-6 py-12 fade-in-up">
+          <main className="mx-auto max-w-5xl px-6 py-18 fade-in-up">
             {children}
           </main>
 
